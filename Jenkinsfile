@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Perm') {
       steps {
-      sh 'chmod ugo+x gime'
+      sh 'chmod ugo+x time'
       } 
     }  
     stage('Build') {
