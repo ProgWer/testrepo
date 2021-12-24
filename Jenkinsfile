@@ -3,7 +3,7 @@ pipeline {
  stages {
  stage('Build') {
  steps {
- sh 'time.py'
+ sh 'ls'
  }
  }
  }
