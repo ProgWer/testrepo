@@ -6,8 +6,7 @@ pipeline {
         sh 'python time.py'
       }
     }
-    stage('Test') {
-      parallel {
+
         stage('Test') {
           steps {
             sh 'echo \'Testing..\''
@@ -20,8 +19,7 @@ pipeline {
           }
         }
 
-      }
-    }
+
 
   }
 }
