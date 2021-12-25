@@ -7,8 +7,6 @@ pipeline {
       }
     }
 
-    stage('Test') {
-      parallel {
         stage('Test') {
           steps {
             sh 'echo \'Testing..\''
@@ -21,7 +19,7 @@ pipeline {
           }
         }
 
-      }
+      
     }
 
   }
